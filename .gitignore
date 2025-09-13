@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.test
+
+# Credentials
+*.json
+!package.json
+!tsconfig.json
+!.eslintrc.json
+!.mcp.json
+client_secret*.json
+google-ads-credentials.json
+service-account-*.json
+
+# Package files
+*.tgz
+*.tar.gz
+
+# Claude-specific
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
