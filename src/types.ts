@@ -84,3 +84,14 @@ export interface GAQLQuery {
   customerId: string;
   outputFormat?: OutputFormat;
 }
+
+// Re-export all new types
+export * from './types/conversions';
+export * from './types/audiences';
+export * from './types/reporting';
+export * from './types/budgets';
+export * from './types/assets';
+export * from './types/campaigns';
+export * from './types/targeting';
+export * from './types/extensions';
+export * from './types/management';
